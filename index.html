@@ -8,10 +8,18 @@
     <title>hello</title>
   </head>
   <body>
-      <div class="hello">
-        <h1 class="font">Hands on me</h1>
+    <!-- HTML의 기능을 활용하려면 input 태그는 form 태그 안에 위치해야 한다. -->
+    <form id="login-form">
+      <input 
+      required maxlength="15" 
+      type="text" 
+      placeholder="What is your name?"/>
+
+      <button>로그인</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+
        <script src="js/app.js"></script>
-        </div>
   </body>
 </html>
 
